@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Control de Notas</title>
+<link rel="stylesheet" href="estilo.css" type="text/css">
+</head>
+
+<body>
+	
+		<div id="banner">
+			<img src="iconos/logo.png" />
+		</div>	
+		<div id="menu">
+			<ul id="navigationMenu">
+				<li>
+					<a href="inicio.html" style="background-image:url(iconos/home.png);">
+						<span>Inicio</span>				</a>	</li>
+			
+				<li>
+					<a href="control_notas.html" style="background-image:url(iconos/horarios.png)";>
+						<span>Control de Notas</span> </a> </li>
+				<li>
+					 <a href="guia_horarios.html" style="background-image:url(iconos/profesores.png)">
+						<span>Horarios y Profesores</span>					 </a>				</li>
+			
+				<li>
+					<a href="envio_mensajes.html" style="background-image:url(iconos/mensajes.png)">
+						<span>Envío de Mensajes</span>					</a>				</li>
+			
+				<li>
+					<a href="info_trabajos.html" style="background-image:url(iconos/trabajos.png)">
+						<span>Trabajos y Tareas</span>					</a>				</li>
+		</ul>
+		</div>
+	<div id="contenedor">
+		<h2>Control de Notas</h2>
+	<form action="" method="get" name="control_notas" target="_self">
+		<label for="">Cédula del Estudiante:</label>
+		<input name="cedula" type="text" size="10" maxlength="9" placeholder="111111111" autofocus />
+		<input type="submit" value="Verificar"><br/>
+		<label for="">Nombre del Estudiante:</label>
+		<input name="nombre" type="text" disabled="disabled" /><br/>
+		<label for="">Código del Curso: </label>		
+		<input name="cod_curso" type="text" size="6" maxlength="5" />
+		<input type="submit" value="Verificar"><br/>
+		<label for="">Nombre del Curso: </label>
+		<input name="nom_curso" type="text" disabled="disabled" /><br/>
+		<label for="">Nota del Curso: </label>
+		<input name="nota" type="text" size="6" maxlength="5" />
+		<br/>
+		<input type="submit" id="btnguardar" value="Guardar">	
+	</form>
+</div>
+		<div id="sidebar">
+			<p><h3>Enlaces Destacados</h3></p>
+						<ul>
+						<li><a href="http://www.mep.go.cr/" target="_blank">MEP</a></li>
+						<li><a href="http://desarrollo-creativo.com/propuestas/sinaes3/" target="_blank">SINAES</a></li>
+						<li><a href="http://www.presidencia.go.cr/" target="_blank">GOBIERNO</a></li>
+						<li><a href="http://www.una.ac.cr/" target="_blank">Universidad Nacional</a></li>
+						<li><a href="http://www.ucr.ac.cr/" target="_blank">Universidad de Costa Rica</a></li>
+						<li><a href="http://www.tec.ac.cr/" target="_blank">Instituto Tecnol&oacute;gico</a></li>
+						<li><a href="http://www.uned.ac.cr/" target="_blank">UNED</a></li>
+						<li><a href="http://www.ina.ac.cr/" target="_blank">INA</a></li>
+						<li><a href="http://www.bncr.fi.cr/" target="_blank">Banco Nacional (BNCR)</a></li>
+						<li><a href="http://www.bancobcr.com/" target="_blank">Banco de Costa Rica (BCR)</a></li>
+						</ul>
+</div>
+		<div id="footer">
+		<div id="parrafo_footer">
+		<p> Universidad Central ® 1978-2013 Derechos Reservados<br /> 
+San Jos&eacute;, Costa Rica • Central Telef&oacute;nica (506) 2772-0000</p>
+		</div>
+		</div>
+</body>
+</html>
